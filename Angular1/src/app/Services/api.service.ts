@@ -5,7 +5,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ApiService {
-  private apiUrl = 'https://localhost:7092/api/Values/deals';
+  private apiUrl = 'https://localhost:7092/api/Values/deals?title=a&qsalePrice=0';
   constructor(private http: HttpClient) { }
   getDeals(): Observable<any[]> {
     return this.http.get<any[]>(this.apiUrl);
