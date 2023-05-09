@@ -15,9 +15,9 @@ CMD for windows or Git bash for other OS, and you need to get inside the project
 4) In the same command line interface, run the command ng serve, this will create a new localhost server where you can use the            webApp, this localhost port is, most of the time, the port 4200 by default.
 5) Finally, open a new tab in your browser, and paste the same URL display in the CLI EX:"http://localhost:4200". And now the app will    be up and running for you to try it out. !!!
 
-===================================================================================================================
+====================================
 USAGE
-===================================================================================================================
+====================================
 In this webApp you will see different boxes containing information about different games. By default, the app will display every
 single game inside the JSON Array, but you can also customize it, by modifying inside the Angular Service, its query strings
 
